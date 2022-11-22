@@ -1,0 +1,9 @@
+# Ignoring secrets.txt and confidential.exe
+secrets.txt
+confidential.exe
+
+passwords
+
+DS_Store
+
+!Readme1.md
