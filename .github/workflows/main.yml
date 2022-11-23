@@ -14,5 +14,6 @@ jobs:
     - run: ls -a
     - run: pwd
     - run: echo "$USER"
-    - run: cat README.md
+    - run: git clone https://github.com/D-I-code/my_qa_repo_nov22.git
+    - run: cat my_qa_repo_nov22.git/README.md
   
