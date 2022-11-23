@@ -12,8 +12,8 @@ jobs:
     steps:
     - run: echo "Hello there!"
     - run: touch file.txt
-    - run: cat file.txt Some text here
-    - run: echo file.txt
+    - run: echo 'Hello again!' >> file.txt
+    - run: cat file.txt 
     - run: ls -a
     - run: pwd
   
