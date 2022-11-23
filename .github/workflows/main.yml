@@ -7,8 +7,7 @@ jobs:
   actions_demo:
     runs-on: ubuntu-latest 
     steps:
-    - run: git cat-file <README.md>
-    - run: cat README.MD
+    - run: git cat README.md
     - run: echo "Hello there!"
     - run: touch file.txt
     - run: echo 'Hello again!' >> file.txt
