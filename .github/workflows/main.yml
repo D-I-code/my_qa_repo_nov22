@@ -1,0 +1,16 @@
+# What we want to call our workflow 
+name: Git Actions Demo
+
+# The workflow runs/triggers when there is a push to the repo
+on: #[push] or:
+  - push 
+# What jobs do we want as part of our workflow
+jobs:
+  actions_demo:
+    runs-on: ubuntu-latest # Creating a container (VM) that uses ubuntu
+    # What we want this machine to do:
+    steps:
+    - run: echo "Hello there!"
+    - run: ls -a
+    - run: pwd
+  
